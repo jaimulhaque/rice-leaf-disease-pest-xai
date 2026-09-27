@@ -2,6 +2,9 @@ import os
 from pathlib import Path
 
 import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 from PIL import Image
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset
@@ -91,6 +94,26 @@ def compute_class_weights(train_set):
     total = counts.sum()
     weights = total / (len(CLASSES) * counts)
     return weights.astype(np.float32)
+
+
+class FocalLoss(nn.Module):
+    """Focal Loss with per-class alpha weighting (handles imbalance + hard examples)."""
+    def __init__(self, alpha=None, gamma=2.0, reduction="mean"):
+        super().__init__()
+        self.alpha = alpha  # tensor of per-class weights, or None
+        self.gamma = gamma
+        self.reduction = reduction
+
+    def forward(self, inputs, targets):
+        ce_loss = F.cross_entropy(inputs, targets, weight=self.alpha, reduction="none")
+        pt = torch.exp(-ce_loss)
+        focal_loss = ((1 - pt) ** self.gamma) * ce_loss
+
+        if self.reduction == "mean":
+            return focal_loss.mean()
+        elif self.reduction == "sum":
+            return focal_loss.sum()
+        return focal_loss
 
 
 if __name__ == "__main__":
