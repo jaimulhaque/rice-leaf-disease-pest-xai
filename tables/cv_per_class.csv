@@ -1,0 +1,8 @@
+Class,Mean F1
+Healthy,0.854
+Insect,0.862
+Leaf Scald,0.766
+Rice Blast,0.836
+Leaf-folder,0.775
+Rice Stripes,0.604
+Tungro,0.624

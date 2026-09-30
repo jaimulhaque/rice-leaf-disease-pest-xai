@@ -1,0 +1,3 @@
+Dataset,7-way Acc,Restricted Acc,Balanced Acc,Class recall (restricted)
+RiceLeafBD (Blast+Tungro),0.083,0.526,0.51,"Blast 0.83, Tungro 0.20"
+Sethy (Healthy+Tungro),0.39,0.849,0.88,"Healthy 0.98, Tungro 0.79"
