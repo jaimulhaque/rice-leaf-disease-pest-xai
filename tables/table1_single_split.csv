@@ -1,6 +1,6 @@
-Model,Params (M),Accuracy,Macro-F1,Inference (ms)
-ResNet50,23.52,0.7627,0.7346,
-EfficientNet-B0,4.02,0.7918,0.7483,8.44
-MobileNetV3-Large,4.21,0.753,0.7234,7.6
-ConvNeXt-Tiny,27.83,0.7676,0.7215,9.63
-Swin-Tiny,27.52,0.7918,0.7682,12.9
+Model,Params (M),Accuracy,Macro-F1,"Latency (ms, bs=1)","Throughput (img/s, bs=32)"
+ResNet50,23.52,0.7627,0.7346,7.17,385.5
+EfficientNet-B0,4.02,0.7918,0.7483,8.25,849.4
+MobileNetV3-Large,4.21,0.753,0.7234,6.96,1376.4
+ConvNeXt-Tiny,27.83,0.7676,0.7215,5.75,333.3
+Swin-Tiny,27.52,0.7918,0.7682,14.31,265.1
