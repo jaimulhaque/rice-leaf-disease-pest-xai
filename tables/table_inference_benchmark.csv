@@ -1,6 +1,6 @@
 Model,"Latency (ms/img, bs=1)","Throughput (img/s, bs=32)"
-ResNet50,6.39,424.3
-EfficientNet-B0,8.31,938.0
-MobileNetV3-Large,6.25,1561.9
-ConvNeXt-Tiny,5.1,380.0
-Swin-Tiny,12.92,285.4
+ResNet50,5.81,417.0
+EfficientNet-B0,7.78,921.3
+MobileNetV3-Large,6.25,1535.8
+ConvNeXt-Tiny,4.92,370.2
+Swin-Tiny,11.48,280.0
