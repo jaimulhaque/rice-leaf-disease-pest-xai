@@ -1,0 +1,6 @@
+Model,WCE Macro-F1,Focal Macro-F1,Delta
+ResNet50,0.7346,0.7348,0.0002
+EfficientNet-B0,0.7483,0.7391,-0.0092
+MobileNetV3-Large,0.7234,0.7298,0.0064
+ConvNeXt-Tiny,0.7215,0.7398,0.0183
+Swin-Tiny,0.7682,0.751,-0.0172

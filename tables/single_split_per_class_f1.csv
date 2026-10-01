@@ -1,0 +1,8 @@
+Class,ResNet50,EfficientNet-B0,MobileNetV3-Large,ConvNeXt-Tiny,Swin-Tiny
+Healthy,0.842,0.886,0.856,0.859,0.865
+Insect,0.813,0.831,0.824,0.81,0.839
+Leaf Scald,0.65,0.72,0.723,0.695,0.649
+Rice Blast,0.853,0.898,0.824,0.912,0.886
+Rice Leaffolder,0.775,0.753,0.734,0.709,0.776
+Rice Stripes,0.526,0.493,0.517,0.442,0.659
+Rice Tungro,0.684,0.656,0.587,0.625,0.703

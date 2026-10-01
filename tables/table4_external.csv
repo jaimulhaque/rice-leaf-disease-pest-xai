@@ -1,0 +1,3 @@
+Dataset,Classes used (n),7-way acc.,Restricted acc.,Balanced acc.,Per-class recall (restricted)
+RiceLeafBD,"Blast (1440), Tungro (1308)",0.083,0.526,0.51,"Blast 0.83, Tungro 0.20"
+Sethy et al.,"Healthy (252), Tungro (530)",0.39,0.849,0.88,"Healthy 0.98, Tungro 0.79"

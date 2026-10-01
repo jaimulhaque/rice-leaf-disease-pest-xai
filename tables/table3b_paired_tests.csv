@@ -1,0 +1,5 @@
+Comparison,Mean diff (F1),Folds won (of 5),p (uncorrected),p (Holm)
+ConvNeXt-Tiny vs ResNet50,0.0167,4,0.051,0.202
+ConvNeXt-Tiny vs EfficientNet-B0,0.0172,4,0.238,0.475
+ConvNeXt-Tiny vs Swin-Tiny,0.0185,4,0.309,0.475
+ConvNeXt-Tiny vs MobileNetV3-Large,0.0299,4,0.125,0.376
