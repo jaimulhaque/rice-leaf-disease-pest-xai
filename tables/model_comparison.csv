@@ -1,6 +1,0 @@
-Model,Params (M),Accuracy,Macro-F1,Inference (ms)
-ResNet50,23.52,0.7627,0.7346,
-EfficientNet-B0,4.02,0.7918,0.7483,8.44
-MobileNetV3-Large,4.21,0.753,0.7234,7.6
-ConvNeXt-Tiny,27.83,0.7676,0.7215,9.63
-Swin-Tiny,27.52,0.7918,0.7682,12.9
