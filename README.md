@@ -1,4 +1,4 @@
-
+# Rice Leaf Disease and Pest Classification: Cross-Validated Benchmark
 
 Code and results for the paper **"How Stable Are Rice Leaf Disease Classifiers? A Cross-Validated Benchmark of Five Pretrained Models on the BRRI Dataset"**
 (Jaimul Haque, Ezabul Alam; Department of CSE, BUBT, Dhaka, Bangladesh).
